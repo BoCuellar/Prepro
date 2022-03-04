@@ -38,3 +38,28 @@
     margin: 0 auto;
 }
 
+
+// Terminos y condiciones
+.terminosSocial__contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+// Políticas
+.politicas{
+    column-count: 3;
+    column-rule: 2px solid #a01919;
+
+    > *{
+        display: block;
+    }
+}
+
+
+// Redes Sociales
+
+
+a {
+    text-decoration: none;
+}
