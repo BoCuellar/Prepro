@@ -68,3 +68,27 @@ a {
             height: 32px;
         }
     }
+
+.IconoRaro{
+    display: flex;
+    align-items: center;
+    
+}
+
+.listas {
+padding-top: 50px;
+display: flex;
+justify-content: space-between;
+    color:rgb(80, 80, 220);
+    li{
+        list-style: none;
+    }
+}
+
+.wrapper {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 20px 20px;
+  }
